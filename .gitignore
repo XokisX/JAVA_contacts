@@ -33,14 +33,14 @@ build/
 .vscode/
 
 /node_modules
-/.pnp
-.pnp.js
+/contacts_react/.pnp
+/contacts_react/.pnp.js
 
 # testing
-/coverage
+/contacts_react/coverage
 
 # production
-/build
+/contacts_react/build
 
 # misc
 /contacts_react/.DS_Store
