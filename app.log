@@ -1,231 +1,69 @@
-2020-10-07 20:47:25.373  INFO 6220 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 6220 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 20:47:25.378  INFO 6220 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 20:47:25.426  INFO 6220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 20:47:25.426  INFO 6220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 20:47:26.028  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:47:26.029  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 20:47:26.044  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JDBC repository interfaces.
-2020-10-07 20:47:26.054  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:47:26.054  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 20:47:26.060  INFO 6220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
-2020-10-07 20:47:26.549  INFO 6220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 20:47:26.556  INFO 6220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 20:47:26.557  INFO 6220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 20:47:26.628  INFO 6220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 20:47:26.628  INFO 6220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
-2020-10-07 20:47:26.662  INFO 6220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 20:47:26.734  INFO 6220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 20:47:26.739  INFO 6220 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:073a5a62-8671-41f8-a26c-41e8e9bce433'
-2020-10-07 20:47:26.840  INFO 6220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 20:47:26.874  INFO 6220 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 20:47:26.903  WARN 6220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 20:47:26.910  INFO 6220 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 20:47:26.986  INFO 6220 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 20:47:27.066  INFO 6220 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 20:47:27.117  WARN 6220 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2020-10-07 20:47:27.221  INFO 6220 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 20:47:27.227  INFO 6220 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 20:47:27.233  INFO 6220 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 20:47:27.279  INFO 6220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 20:47:27.281  INFO 6220 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 20:47:27.281  INFO 6220 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 20:47:27.295  INFO 6220 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.253 seconds (JVM running for 2.855)
-2020-10-07 20:47:41.234  INFO 10292 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 10292 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 20:47:41.237  INFO 10292 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 20:47:41.281  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 20:47:41.282  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 20:47:41.846  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:47:41.846  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 20:47:41.858  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JDBC repository interfaces.
-2020-10-07 20:47:41.866  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:47:41.866  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 20:47:41.871  INFO 10292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
-2020-10-07 20:47:42.254  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 20:47:42.260  INFO 10292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 20:47:42.261  INFO 10292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 20:47:42.321  INFO 10292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 20:47:42.321  INFO 10292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
-2020-10-07 20:47:42.350  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 20:47:42.418  INFO 10292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 20:47:42.423  INFO 10292 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b353d081-de47-4b59-8cec-a46c87058472'
-2020-10-07 20:47:42.512  INFO 10292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 20:47:42.544  INFO 10292 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 20:47:42.572  WARN 10292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 20:47:42.578  INFO 10292 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 20:47:42.656  INFO 10292 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 20:47:42.710  INFO 10292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-10-07 20:47:42.724  INFO 10292 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 20:47:42.925  INFO 10292 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 20:47:42.933  INFO 10292 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 20:47:42.940  INFO 10292 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 20:47:42.978  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 20:47:42.979  INFO 10292 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 20:47:42.980  INFO 10292 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 20:47:42.988  INFO 10292 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.117 seconds (JVM running for 3.506)
-2020-10-07 20:47:43.496  INFO 10292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-07 20:55:43.784  INFO 6260 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 6260 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 20:55:43.787  INFO 6260 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 20:55:43.838  INFO 6260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 20:55:43.839  INFO 6260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 20:55:44.427  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:55:44.428  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 20:55:44.439  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JDBC repository interfaces.
-2020-10-07 20:55:44.445  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 20:55:44.446  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 20:55:44.450  INFO 6260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
-2020-10-07 20:55:44.855  INFO 6260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 20:55:44.861  INFO 6260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 20:55:44.861  INFO 6260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 20:55:44.923  INFO 6260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 20:55:44.924  INFO 6260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
-2020-10-07 20:55:44.957  INFO 6260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 20:55:45.031  INFO 6260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 20:55:45.036  INFO 6260 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:df877588-4892-4371-88e4-cef4b747caba'
-2020-10-07 20:55:45.127  INFO 6260 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 20:55:45.170  INFO 6260 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 20:55:45.178  WARN 6260 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2020-10-07 20:55:45.202  INFO 6260 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 20:55:45.222  WARN 6260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 20:55:45.279  INFO 6260 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 20:55:45.355  INFO 6260 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 20:55:45.511  INFO 6260 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 20:55:45.517  INFO 6260 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 20:55:45.524  INFO 6260 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 20:55:45.625  INFO 6260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 20:55:45.627  INFO 6260 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 20:55:45.629  INFO 6260 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 20:55:45.654  INFO 6260 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.187 seconds (JVM running for 2.809)
-2020-10-07 20:55:45.760  INFO 6260 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-07 21:08:00.024  INFO 5956 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 5956 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 21:08:00.026  INFO 5956 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 21:08:00.077  INFO 5956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 21:08:00.077  INFO 5956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 21:08:00.683  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:08:00.684  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 21:08:00.696  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JDBC repository interfaces.
-2020-10-07 21:08:00.705  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:08:00.706  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 21:08:00.710  INFO 5956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
-2020-10-07 21:08:01.231  INFO 5956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 21:08:01.239  INFO 5956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 21:08:01.239  INFO 5956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 21:08:01.308  INFO 5956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 21:08:01.308  INFO 5956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
-2020-10-07 21:08:01.342  INFO 5956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 21:08:01.413  INFO 5956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 21:08:01.417  INFO 5956 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f360cacc-f200-42e3-9084-7fb5fd2f315c'
-2020-10-07 21:08:01.538  INFO 5956 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 21:08:01.607  INFO 5956 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 21:08:01.623  WARN 5956 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2020-10-07 21:08:01.650  INFO 5956 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 21:08:01.676  WARN 5956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 21:08:01.735  INFO 5956 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 21:08:01.823  INFO 5956 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 21:08:01.973  INFO 5956 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 21:08:01.979  INFO 5956 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 21:08:01.988  INFO 5956 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 21:08:02.047  INFO 5956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 21:08:02.049  INFO 5956 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 21:08:02.050  INFO 5956 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 21:08:02.065  INFO 5956 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.35 seconds (JVM running for 2.961)
-2020-10-07 21:08:02.116  INFO 5956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-07 21:10:11.946  INFO 12072 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 12072 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 21:10:11.948  INFO 12072 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 21:10:12.005  INFO 12072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 21:10:12.005  INFO 12072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 21:10:12.590  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:10:12.590  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 21:10:12.603  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JDBC repository interfaces.
-2020-10-07 21:10:12.610  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:10:12.611  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 21:10:12.615  INFO 12072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
-2020-10-07 21:10:13.013  INFO 12072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 21:10:13.019  INFO 12072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 21:10:13.020  INFO 12072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 21:10:13.077  INFO 12072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 21:10:13.077  INFO 12072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1072 ms
-2020-10-07 21:10:13.110  INFO 12072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 21:10:13.181  INFO 12072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 21:10:13.186  INFO 12072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5d39aa64-6caf-477a-837f-fa2417073949'
-2020-10-07 21:10:13.290  INFO 12072 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 21:10:13.324  INFO 12072 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 21:10:13.331  WARN 12072 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2020-10-07 21:10:13.374  INFO 12072 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 21:10:13.409  WARN 12072 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 21:10:13.546  INFO 12072 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 21:10:13.650  INFO 12072 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 21:10:13.827  INFO 12072 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 21:10:13.836  INFO 12072 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 21:10:13.845  INFO 12072 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 21:10:13.901  INFO 12072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 21:10:13.902  INFO 12072 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 21:10:13.903  INFO 12072 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 21:10:13.915  INFO 12072 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.3 seconds (JVM running for 2.906)
-2020-10-07 21:10:44.354  INFO 3416 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 3416 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 21:10:44.357  INFO 3416 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 21:10:44.412  INFO 3416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 21:10:44.413  INFO 3416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 21:10:44.982  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:10:44.982  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 21:10:45.001  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
-2020-10-07 21:10:45.022  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:10:45.023  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 21:10:45.039  INFO 3416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 JPA repository interfaces.
-2020-10-07 21:10:45.525  INFO 3416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 21:10:45.534  INFO 3416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 21:10:45.534  INFO 3416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 21:10:45.600  INFO 3416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 21:10:45.601  INFO 3416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
-2020-10-07 21:10:45.635  INFO 3416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 21:10:45.720  INFO 3416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 21:10:45.724  INFO 3416 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ef3328aa-2280-4213-8cf3-8ca4c8db83ee'
-2020-10-07 21:10:45.831  INFO 3416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 21:10:45.862  INFO 3416 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 21:10:45.868  WARN 3416 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2020-10-07 21:10:45.898  INFO 3416 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 21:10:45.915  WARN 3416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 21:10:45.974  INFO 3416 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 21:10:46.050  INFO 3416 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 21:10:46.199  INFO 3416 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 21:10:46.204  INFO 3416 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 21:10:46.213  INFO 3416 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 21:10:46.264  INFO 3416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 21:10:46.265  INFO 3416 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 21:10:46.265  INFO 3416 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 21:10:46.277  INFO 3416 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.224 seconds (JVM running for 2.818)
-2020-10-07 21:10:46.484  INFO 3416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-07 21:12:36.570  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 13044 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
-2020-10-07 21:12:36.573  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
-2020-10-07 21:12:36.643  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-10-07 21:12:36.644  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-10-07 21:12:37.236  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:12:37.236  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-10-07 21:12:37.247  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JDBC repository interfaces.
-2020-10-07 21:12:37.255  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-10-07 21:12:37.255  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-10-07 21:12:37.259  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
-2020-10-07 21:12:37.695  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-10-07 21:12:37.703  INFO 13044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-07 21:12:37.703  INFO 13044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-10-07 21:12:37.766  INFO 13044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-07 21:12:37.767  INFO 13044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
-2020-10-07 21:12:37.800  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-07 21:12:37.871  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-07 21:12:37.875  INFO 13044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f92d288d-469b-4288-b5bf-edcd5a146aa7'
-2020-10-07 21:12:37.969  INFO 13044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-07 21:12:38.001  INFO 13044 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-07 21:12:38.011  WARN 13044 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2020-10-07 21:12:38.034  INFO 13044 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2020-10-07 21:12:38.053  WARN 13044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-07 21:12:38.109  INFO 13044 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-07 21:12:38.224  INFO 13044 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-07 21:12:38.431  INFO 13044 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-07 21:12:38.438  INFO 13044 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-07 21:12:38.447  INFO 13044 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-10-07 21:12:38.498  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-07 21:12:38.500  INFO 13044 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-10-07 21:12:38.500  INFO 13044 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-10-07 21:12:38.508  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.271 seconds (JVM running for 3.089)
-2020-10-07 21:12:38.690  INFO 13044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-07 21:12:38.758  INFO 13044 --- [http-nio-8080-exec-1] b.e.c.controller.ContactsController      : /index was called
-2020-10-07 21:12:43.983  INFO 13044 --- [http-nio-8080-exec-7] b.e.c.controller.ContactsController      : User request all contacts
+2020-10-27 21:17:55.422  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 13044 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-10-27 21:17:55.671  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-10-27 21:17:55.767  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 21:17:55.767  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 21:17:56.973  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 21:17:56.974  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-27 21:17:57.024  INFO 13044 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface by.ermakovich.contacts.repos.UserRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-10-27 21:17:57.025  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 JDBC repository interfaces.
+2020-10-27 21:17:57.035  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 21:17:57.035  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-27 21:17:57.058  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+2020-10-27 21:17:57.689  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-27 21:17:57.702  INFO 13044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-27 21:17:57.702  INFO 13044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 21:18:03.356  INFO 13044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-27 21:18:03.357  INFO 13044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7589 ms
+2020-10-27 21:18:03.400  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-27 21:18:12.348  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-27 21:18:12.353  INFO 13044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-10-27 21:18:12.550  INFO 13044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 21:18:12.612  INFO 13044 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-27 21:18:12.627  WARN 13044 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-10-27 21:18:12.831  INFO 13044 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-27 21:18:12.852  WARN 13044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-27 21:18:13.335  INFO 13044 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-27 21:18:13.651  INFO 13044 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-27 21:18:19.630  INFO 13044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-27 21:18:19.681  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-27 21:18:19.683  INFO 13044 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-27 21:18:42.525  INFO 13044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 21:18:50.421  INFO 13044 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-27 21:18:50.426  INFO 13044 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 21:18:50.562  INFO 13044 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-27 21:18:50.573  INFO 13044 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 55.569 seconds (JVM running for 56.574)
+2020-10-27 21:21:14.665  INFO 6580 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 6580 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-10-27 21:21:14.672  INFO 6580 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-10-27 21:21:14.799  INFO 6580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 21:21:14.799  INFO 6580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 21:21:15.372  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 21:21:15.372  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-27 21:21:15.397  INFO 6580 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface by.ermakovich.contacts.repos.UserRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-10-27 21:21:15.398  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 JDBC repository interfaces.
+2020-10-27 21:21:15.405  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 21:21:15.405  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-27 21:21:15.424  INFO 6580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 JPA repository interfaces.
+2020-10-27 21:21:15.880  INFO 6580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-27 21:21:15.886  INFO 6580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-27 21:21:15.887  INFO 6580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 21:21:15.954  INFO 6580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-27 21:21:15.954  INFO 6580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1154 ms
+2020-10-27 21:21:15.986  INFO 6580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-27 21:21:16.104  INFO 6580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-27 21:21:16.109  INFO 6580 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-10-27 21:21:16.239  INFO 6580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 21:21:16.269  INFO 6580 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-27 21:21:16.280  WARN 6580 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-10-27 21:21:16.309  INFO 6580 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-27 21:21:16.338  WARN 6580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-27 21:21:16.424  INFO 6580 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-27 21:21:16.503  INFO 6580 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-27 21:21:16.720  INFO 6580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-27 21:21:16.760  INFO 6580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-27 21:21:16.764  INFO 6580 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-27 21:21:16.965  INFO 6580 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-27 21:21:16.969  INFO 6580 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 21:21:17.053  INFO 6580 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-27 21:21:17.062  INFO 6580 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.088 seconds (JVM running for 3.874)
+2020-10-27 21:21:27.305  INFO 6580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 21:21:27.341  INFO 6580 --- [http-nio-8080-exec-1] b.e.c.controller.ContactsController      : User request all contacts

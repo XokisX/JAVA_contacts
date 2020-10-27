@@ -31,3 +31,25 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+/contacts_react/.DS_Store
+/contacts_react/.env.local
+/contacts_react/.env.development.local
+/contacts_react/.env.test.local
+/contacts_react/.env.production.local
+
+/contacts_react/npm-debug.log*
+/contacts_react/yarn-debug.log*
+/contacts_react/yarn-error.log*
+/contacts_react/node_modules/
