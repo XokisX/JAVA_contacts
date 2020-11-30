@@ -1,6 +1,9 @@
-package by.ermakovich.contacts.forms;
+package by.ermakovich.contacts.controller;
 
-public class UserRegisterForm {
+
+import javax.validation.constraints.NotEmpty;
+
+public class RegistrationRequest {
     public String getUsername() {
         return username;
     }
@@ -17,12 +20,12 @@ public class UserRegisterForm {
         this.login = login;
     }
 
-    public String getPass() {
-        return pass;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPass(String pass) {
-        this.pass = pass;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getEmail() {
@@ -41,9 +44,14 @@ public class UserRegisterForm {
         this.number = number;
     }
 
+    @NotEmpty
     private String username;
+    @NotEmpty
     private String login;
-    private String pass;
+    @NotEmpty
+    private String password;
+    @NotEmpty
     private String email;
+    @NotEmpty
     private String number;
 }

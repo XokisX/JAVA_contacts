@@ -7,16 +7,16 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.Date;
 
-@Data
-@Entity
-@Table(name="users")
+//@Data
+//@Entity
+//@Table(name="users")
 public class User {
     public Integer getId() {
         return id;
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer  id;
     private String username;
 
@@ -25,14 +25,13 @@ public class User {
     }
 
 
-    public User(Integer id, String username, String login, String pass, String email, String number, boolean admin, boolean isBaned) {
+    public User(Integer id, String username, String login, String pass, String email, String number,  boolean isBaned) {
         this.id = id;
         this.username = username;
         this.login = login;
         this.pass = pass;
         this.email = email;
         this.number = number;
-        this.admin = admin;
         this.isBaned = isBaned;
     }
 
@@ -79,15 +78,8 @@ public class User {
         this.number = number;
     }
 
+
     private String number;
-
-    public boolean isAdmin() {
-        return admin;
-    }
-
-    public void setAdmin(boolean admin) {
-        this.admin = admin;
-    }
 
     private boolean admin;
 
