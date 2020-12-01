@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @Slf4j
 @RestController
 public class ContactsController {
@@ -53,7 +54,7 @@ public class ContactsController {
         return new ServerResponce(false ,"Wrong token",null);
     }
 
-    @PostMapping("/api/getAllUsers")
+        @PostMapping("/api/getAllUsers")
     public ServerResponce getAllUsers(@RequestHeader(name = "Authorization") String token,@RequestBody PaginationRequest request){
         String login = jwtProvider.getLoginFromToken(token.substring(7));
         Integer page = request.getPage();
