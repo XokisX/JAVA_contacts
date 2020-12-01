@@ -22,7 +22,7 @@ import java.io.IOException;
 @Log4j2
 public class JwtFilter extends GenericFilterBean {
 
-    public  static final String AUTHORIZATION = "Authorization";
+    public static final String AUTHORIZATION = "Authorization";
 
     @Autowired
     private JwtProvider jwtProvider;

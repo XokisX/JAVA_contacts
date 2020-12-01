@@ -1,4 +1,4 @@
-package by.ermakovich.contacts.model;
+package by.ermakovich.contacts.controller;
 
 public class ServerResponce {
     public ServerResponce(boolean status, String message, Object obj) {

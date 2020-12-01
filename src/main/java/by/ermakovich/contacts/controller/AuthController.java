@@ -2,8 +2,6 @@ package by.ermakovich.contacts.controller;
 
 import by.ermakovich.contacts.config.jwt.JwtProvider;
 import by.ermakovich.contacts.entity.UserEntity;
-import by.ermakovich.contacts.model.ServerResponce;
-import by.ermakovich.contacts.model.User;
 import by.ermakovich.contacts.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -36,8 +34,13 @@ public class AuthController {
 
     @PostMapping("/auth")
     public ServerResponce auth(@RequestBody AuthRequest request){
-       UserEntity userEntity = userService.findByLoginAndPassword(request.getLogin(),request.getPassword());
-       String token = jwtProvider.generateToken(request.getLogin());
-       return new ServerResponce(true,"Successful",token);
+        if(request.getLogin()!=null&&request.getPassword()!=null) {
+            UserEntity userEntity = userService.findByLoginAndPassword(request.getLogin(), request.getPassword());
+            if (userEntity != null) {
+                String token = jwtProvider.generateToken(request.getLogin());
+                return new ServerResponce(true, "Successful", token);
+            }
+        }
+        return new ServerResponce(false, "Wrong login or password", null);
     }
 }
