@@ -3105,3 +3105,1020 @@ io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period
 2020-12-01 18:02:33.475  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
 2020-12-01 18:02:33.476  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
 2020-12-01 21:12:16.122  WARN 700 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h45m37s274ms601µs900ns).
+2020-12-01 22:21:36.162  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:36.166  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:36.203  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:36.203  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:36.326  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:36.327  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:36.327  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:36.327  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:47.080  INFO 700 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:47.081  INFO 700 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:47.081  INFO 700 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:47.081  INFO 700 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:55.136  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:55.136  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:21:55.136  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:21:55.136  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:04.880  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:04.880  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:04.880  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:04.880  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:11.434  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:11.434  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:11.434  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:11.434  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:18.488  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:18.489  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:18.489  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:18.489  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:24.399  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:24.400  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:24.400  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:24.400  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:31.241  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:31.241  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:22:31.241  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:22:31.241  INFO 700 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:31:34.179  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:31:34.179  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:31:34.180  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:31:34.180  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:31:38.235  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:31:38.236  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:31:38.236  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:31:38.236  INFO 700 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:42.994  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:42.995  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:42.996  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:42.996  INFO 700 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:43.002  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:43.003  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:43.003  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:43.003  INFO 700 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:44.442  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:44.443  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:44.443  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:44.443  INFO 700 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 22:37:44.450  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:44.450  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:37:44.462  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:44.462  INFO 700 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:37:45.103  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:45.104  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:37:45.112  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:37:45.113  INFO 700 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:38:32.837  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:38:32.838  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:38:32.854  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:38:32.854  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:38:32.876  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:38:32.876  INFO 700 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:38:44.591  INFO 15000 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 15000 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:38:44.594  INFO 15000 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:38:44.637  INFO 15000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:38:44.638  INFO 15000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:38:45.338  INFO 15000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:38:45.395  INFO 15000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 2 JPA repository interfaces.
+2020-12-01 22:38:45.885  INFO 15000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:38:45.892  INFO 15000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:38:45.893  INFO 15000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:38:45.962  INFO 15000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:38:45.963  INFO 15000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2020-12-01 22:38:46.000  INFO 15000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:38:46.208  INFO 15000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:38:46.214  INFO 15000 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:38:46.337  WARN 15000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:38:46.389  INFO 15000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:38:46.445  INFO 15000 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:38:46.495  INFO 15000 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:38:46.605  INFO 15000 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:38:46.623  INFO 15000 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51737a9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@64915443, org.springframework.security.web.header.HeaderWriterFilter@6a817495, org.springframework.security.web.authentication.logout.LogoutFilter@77392845, by.ermakovich.contacts.filters.JwtFilter@185c6f38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173fd84d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@518542b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70638412, org.springframework.security.web.session.SessionManagementFilter@6f13401c, org.springframework.security.web.access.ExceptionTranslationFilter@a45e8dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e6cff39]
+2020-12-01 22:38:46.632  WARN 15000 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:38:46.718  INFO 15000 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:38:46.991  INFO 15000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:38:47.032  INFO 15000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:38:47.033  INFO 15000 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:38:47.905  INFO 15000 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:38:47.911  INFO 15000 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:38:48.212  INFO 15000 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:38:48.220  INFO 15000 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.929 seconds (JVM running for 4.758)
+2020-12-01 22:40:43.151  INFO 15000 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:40:43.168  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:40:43.168  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:40:43.321  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:40:43.321  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:40:43.365  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:40:43.365  INFO 15000 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:41:06.747  INFO 21944 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 21944 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:41:06.750  INFO 21944 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:41:06.800  INFO 21944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:41:06.801  INFO 21944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:41:07.406  INFO 21944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:41:07.451  INFO 21944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-12-01 22:41:07.860  INFO 21944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:41:07.866  INFO 21944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:41:07.867  INFO 21944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:41:07.927  INFO 21944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:41:07.927  INFO 21944 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2020-12-01 22:41:07.957  INFO 21944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:41:08.069  INFO 21944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:41:08.074  INFO 21944 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:41:08.162  WARN 21944 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:41:08.203  INFO 21944 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:41:08.235  INFO 21944 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:41:08.278  INFO 21944 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:41:08.371  INFO 21944 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:41:08.391  INFO 21944 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e698cb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a997812, org.springframework.security.web.header.HeaderWriterFilter@2866c972, org.springframework.security.web.authentication.logout.LogoutFilter@28ae7880, by.ermakovich.contacts.filters.JwtFilter@6d219766, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bf1490c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42473d5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c3cf6af, org.springframework.security.web.session.SessionManagementFilter@2cfacb1, org.springframework.security.web.access.ExceptionTranslationFilter@63d9bda1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@771572ae]
+2020-12-01 22:41:08.399  WARN 21944 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:41:08.452  INFO 21944 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:41:08.688  INFO 21944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:41:08.723  INFO 21944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:41:08.725  INFO 21944 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:41:09.013  INFO 21944 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:41:09.017  INFO 21944 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:41:09.171  INFO 21944 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:41:09.178  INFO 21944 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.891 seconds (JVM running for 3.465)
+2020-12-01 22:41:11.256  INFO 21944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:41:11.270  INFO 21944 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:41:11.271  INFO 21944 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:41:11.407  INFO 21944 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:41:11.407  INFO 21944 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:44:27.710  INFO 22768 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 22768 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:44:27.713  INFO 22768 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:44:27.774  INFO 22768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:44:27.774  INFO 22768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:44:28.329  INFO 22768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:44:28.373  INFO 22768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-12-01 22:44:28.796  INFO 22768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:44:28.802  INFO 22768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:44:28.802  INFO 22768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:44:28.867  INFO 22768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:44:28.868  INFO 22768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1094 ms
+2020-12-01 22:44:28.900  INFO 22768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:44:29.113  INFO 22768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:44:29.119  INFO 22768 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:44:29.207  WARN 22768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:44:29.242  INFO 22768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:44:29.272  INFO 22768 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:44:29.313  INFO 22768 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:44:29.411  INFO 22768 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:44:29.431  INFO 22768 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9559b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@10369396, org.springframework.security.web.header.HeaderWriterFilter@19aa312, org.springframework.security.web.authentication.logout.LogoutFilter@64e98829, by.ermakovich.contacts.filters.JwtFilter@33161825, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42473d5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4e041c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e301447, org.springframework.security.web.session.SessionManagementFilter@65ca0038, org.springframework.security.web.access.ExceptionTranslationFilter@219ce733, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f32d852]
+2020-12-01 22:44:29.439  WARN 22768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:44:29.497  INFO 22768 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:44:29.722  INFO 22768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:44:29.762  INFO 22768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:44:29.763  INFO 22768 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:44:30.057  INFO 22768 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:44:30.062  INFO 22768 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:44:30.223  INFO 22768 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:44:30.232  INFO 22768 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.823 seconds (JVM running for 3.386)
+2020-12-01 22:44:32.765  INFO 22768 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:44:32.780  INFO 22768 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:44:32.781  INFO 22768 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:44:32.909  INFO 22768 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:44:32.910  INFO 22768 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:44:46.006  INFO 3248 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 3248 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:44:46.008  INFO 3248 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:44:46.053  INFO 3248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:44:46.054  INFO 3248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:44:46.596  INFO 3248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:44:46.641  INFO 3248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-12-01 22:44:47.180  INFO 3248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:44:47.186  INFO 3248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:44:47.186  INFO 3248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:44:47.248  INFO 3248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:44:47.248  INFO 3248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2020-12-01 22:44:47.279  INFO 3248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:44:47.381  INFO 3248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:44:47.387  INFO 3248 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:44:47.470  WARN 3248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:44:47.508  INFO 3248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:44:47.537  INFO 3248 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:44:47.575  INFO 3248 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:44:47.689  INFO 3248 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:44:47.766  INFO 3248 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29a04843, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f13401c, org.springframework.security.web.header.HeaderWriterFilter@a45e8dd, org.springframework.security.web.authentication.logout.LogoutFilter@71705b77, by.ermakovich.contacts.filters.JwtFilter@7d0ced9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64915443, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2866c972, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bf2b84, org.springframework.security.web.session.SessionManagementFilter@14b73333, org.springframework.security.web.access.ExceptionTranslationFilter@528d5f7f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d936ee3]
+2020-12-01 22:44:47.775  WARN 3248 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:44:47.840  INFO 3248 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:44:48.067  INFO 3248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:44:48.103  INFO 3248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:44:48.105  INFO 3248 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:44:48.420  INFO 3248 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:44:48.424  INFO 3248 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:44:48.575  INFO 3248 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:44:48.583  INFO 3248 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.903 seconds (JVM running for 3.486)
+2020-12-01 22:44:51.939  INFO 3248 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:44:51.960  INFO 3248 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:44:51.961  INFO 3248 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:44:52.109  INFO 3248 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:44:52.109  INFO 3248 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:45:09.111  INFO 4456 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 4456 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:45:09.113  INFO 4456 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:45:09.174  INFO 4456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:45:09.174  INFO 4456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:45:09.732  INFO 4456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:45:09.777  INFO 4456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-12-01 22:45:10.205  INFO 4456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:45:10.215  INFO 4456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:45:10.215  INFO 4456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:45:10.277  INFO 4456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:45:10.277  INFO 4456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1102 ms
+2020-12-01 22:45:10.307  INFO 4456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:45:10.414  INFO 4456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:45:10.419  INFO 4456 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:45:10.513  WARN 4456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:45:10.550  INFO 4456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:45:10.580  INFO 4456 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:45:10.626  INFO 4456 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:45:10.722  INFO 4456 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:45:10.739  INFO 4456 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c505494, org.springframework.security.web.context.SecurityContextPersistenceFilter@a2919f, org.springframework.security.web.header.HeaderWriterFilter@5f20073a, org.springframework.security.web.authentication.logout.LogoutFilter@1e033785, by.ermakovich.contacts.filters.JwtFilter@202819b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64606114, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1abb7ae1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e40cd7d, org.springframework.security.web.session.SessionManagementFilter@73d4c966, org.springframework.security.web.access.ExceptionTranslationFilter@406fc9c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53db6d51]
+2020-12-01 22:45:10.746  WARN 4456 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:45:10.803  INFO 4456 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:45:11.053  INFO 4456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:45:11.094  INFO 4456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:45:11.096  INFO 4456 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:45:11.405  INFO 4456 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:45:11.409  INFO 4456 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:45:11.570  INFO 4456 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:45:11.579  INFO 4456 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.776 seconds (JVM running for 3.456)
+2020-12-01 22:45:12.938  INFO 4456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:45:12.959  INFO 4456 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:45:12.960  INFO 4456 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:45:13.096  INFO 4456 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:45:13.096  INFO 4456 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:45:18.511  INFO 4456 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:45:18.511  INFO 4456 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:45:18.517  INFO 4456 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:45:18.517  INFO 4456 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:46:26.078  INFO 23344 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 23344 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:46:26.082  INFO 23344 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:46:26.175  INFO 23344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:46:26.176  INFO 23344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:46:26.913  INFO 23344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:46:26.962  INFO 23344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 2 JPA repository interfaces.
+2020-12-01 22:46:27.429  INFO 23344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:46:27.436  INFO 23344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:46:27.437  INFO 23344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:46:27.507  INFO 23344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:46:27.508  INFO 23344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1332 ms
+2020-12-01 22:46:27.543  INFO 23344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:46:27.664  INFO 23344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:46:27.669  INFO 23344 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:46:27.751  WARN 23344 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:46:27.792  INFO 23344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:46:27.826  INFO 23344 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:46:27.862  INFO 23344 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:46:27.974  INFO 23344 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:46:28.007  INFO 23344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5109eff1, org.springframework.security.web.context.SecurityContextPersistenceFilter@641aacb1, org.springframework.security.web.header.HeaderWriterFilter@7779fa57, org.springframework.security.web.authentication.logout.LogoutFilter@7f0a83e4, by.ermakovich.contacts.filters.JwtFilter@7d145d26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45ba3cf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7baab2fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a7ae5ce, org.springframework.security.web.session.SessionManagementFilter@5cdb4233, org.springframework.security.web.access.ExceptionTranslationFilter@602efa9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c4419c]
+2020-12-01 22:46:28.016  WARN 23344 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:46:28.057  INFO 23344 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:46:28.305  INFO 23344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:46:28.365  INFO 23344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:46:28.367  INFO 23344 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:46:28.699  INFO 23344 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:46:28.704  INFO 23344 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:46:28.887  INFO 23344 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:46:28.894  INFO 23344 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.243 seconds (JVM running for 4.006)
+2020-12-01 22:46:37.379  INFO 23344 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:46:37.394  INFO 23344 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:46:37.394  INFO 23344 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:46:37.535  INFO 23344 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:46:37.535  INFO 23344 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:49:48.079  INFO 23344 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:49:48.079  INFO 23344 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:49:48.086  INFO 23344 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:49:48.086  INFO 23344 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:00.952  INFO 7912 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 7912 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:50:00.958  INFO 7912 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:50:01.110  INFO 7912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:50:01.111  INFO 7912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:50:01.805  INFO 7912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:50:01.849  INFO 7912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 2 JPA repository interfaces.
+2020-12-01 22:50:02.276  INFO 7912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:50:02.283  INFO 7912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:50:02.283  INFO 7912 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:50:02.346  INFO 7912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:50:02.347  INFO 7912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2020-12-01 22:50:02.378  INFO 7912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:50:02.487  INFO 7912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:50:02.492  INFO 7912 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:50:02.580  WARN 7912 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:50:02.615  INFO 7912 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:50:02.643  INFO 7912 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:50:02.678  INFO 7912 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:50:02.763  INFO 7912 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:50:02.781  INFO 7912 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5109eff1, org.springframework.security.web.context.SecurityContextPersistenceFilter@641aacb1, org.springframework.security.web.header.HeaderWriterFilter@7779fa57, org.springframework.security.web.authentication.logout.LogoutFilter@7f0a83e4, by.ermakovich.contacts.filters.JwtFilter@7d145d26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45ba3cf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7baab2fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a7ae5ce, org.springframework.security.web.session.SessionManagementFilter@5cdb4233, org.springframework.security.web.access.ExceptionTranslationFilter@602efa9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c4419c]
+2020-12-01 22:50:02.789  WARN 7912 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:50:02.852  INFO 7912 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:50:03.080  INFO 7912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:50:03.115  INFO 7912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:50:03.117  INFO 7912 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:50:03.433  INFO 7912 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:50:03.438  INFO 7912 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:50:03.598  INFO 7912 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:50:03.605  INFO 7912 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.958 seconds (JVM running for 3.607)
+2020-12-01 22:50:06.171  INFO 7912 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:50:06.187  INFO 7912 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:06.187  INFO 7912 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:06.330  INFO 7912 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:06.331  INFO 7912 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:28.913  INFO 6440 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 6440 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:50:28.917  INFO 6440 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:50:28.987  INFO 6440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:50:28.988  INFO 6440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:50:29.995  INFO 6440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:50:30.061  INFO 6440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 2 JPA repository interfaces.
+2020-12-01 22:50:30.837  INFO 6440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:50:30.853  INFO 6440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:50:30.854  INFO 6440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:50:30.943  INFO 6440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:50:30.944  INFO 6440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1956 ms
+2020-12-01 22:50:30.987  INFO 6440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:50:31.227  INFO 6440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:50:31.234  INFO 6440 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:50:31.361  WARN 6440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:50:31.409  INFO 6440 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:50:31.450  INFO 6440 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:50:31.522  INFO 6440 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:50:31.794  INFO 6440 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:50:31.814  INFO 6440 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13e69306, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b154a0d, org.springframework.security.web.header.HeaderWriterFilter@4881abb8, org.springframework.security.web.authentication.logout.LogoutFilter@5f20073a, by.ermakovich.contacts.filters.JwtFilter@17074f14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@528d5f7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7349652c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@159bbc40, org.springframework.security.web.session.SessionManagementFilter@34f1ee22, org.springframework.security.web.access.ExceptionTranslationFilter@4ece540, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f4da565]
+2020-12-01 22:50:31.828  WARN 6440 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:50:31.915  INFO 6440 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:50:32.298  INFO 6440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:50:32.461  INFO 6440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:50:32.467  INFO 6440 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:50:33.074  INFO 6440 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:50:33.083  INFO 6440 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:50:33.365  INFO 6440 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:50:33.378  INFO 6440 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 4.911 seconds (JVM running for 5.677)
+2020-12-01 22:50:37.427  INFO 6440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:50:37.445  INFO 6440 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:37.445  INFO 6440 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:37.590  INFO 6440 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:37.590  INFO 6440 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:50.930  INFO 21616 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 21616 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:50:50.934  INFO 21616 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:50:51.004  INFO 21616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:50:51.004  INFO 21616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:50:51.666  INFO 21616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:50:51.712  INFO 21616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 2 JPA repository interfaces.
+2020-12-01 22:50:52.143  INFO 21616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:50:52.150  INFO 21616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:50:52.150  INFO 21616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:50:52.213  INFO 21616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:50:52.213  INFO 21616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2020-12-01 22:50:52.248  INFO 21616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:50:52.366  INFO 21616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:50:52.371  INFO 21616 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:50:52.464  WARN 21616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:50:52.500  INFO 21616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:50:52.530  INFO 21616 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:50:52.565  INFO 21616 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:50:52.666  INFO 21616 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:50:52.683  INFO 21616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9559b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@10369396, org.springframework.security.web.header.HeaderWriterFilter@19aa312, org.springframework.security.web.authentication.logout.LogoutFilter@64e98829, by.ermakovich.contacts.filters.JwtFilter@33161825, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42473d5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4e041c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e301447, org.springframework.security.web.session.SessionManagementFilter@65ca0038, org.springframework.security.web.access.ExceptionTranslationFilter@219ce733, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f32d852]
+2020-12-01 22:50:52.693  WARN 21616 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:50:52.769  INFO 21616 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:50:53.024  INFO 21616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:50:53.076  INFO 21616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:50:53.079  INFO 21616 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:50:53.464  INFO 21616 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:50:53.469  INFO 21616 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:50:53.643  INFO 21616 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:50:53.651  INFO 21616 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.055 seconds (JVM running for 3.647)
+2020-12-01 22:50:55.466  INFO 21616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:50:55.486  INFO 21616 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:55.486  INFO 21616 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:50:55.615  INFO 21616 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:50:55.616  INFO 21616 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:51:04.867  INFO 22188 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 22188 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:51:04.871  INFO 22188 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:51:04.939  INFO 22188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:51:04.939  INFO 22188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:51:05.576  INFO 22188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:51:05.624  INFO 22188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 2 JPA repository interfaces.
+2020-12-01 22:51:06.052  INFO 22188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:51:06.058  INFO 22188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:51:06.058  INFO 22188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:51:06.123  INFO 22188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:51:06.123  INFO 22188 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1183 ms
+2020-12-01 22:51:06.154  INFO 22188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:51:06.364  INFO 22188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:51:06.368  INFO 22188 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:51:06.456  WARN 22188 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:51:06.493  INFO 22188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:51:06.521  INFO 22188 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:51:06.557  INFO 22188 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:51:06.646  INFO 22188 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:51:06.661  INFO 22188 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b1732ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@66317213, org.springframework.security.web.header.HeaderWriterFilter@7349652c, org.springframework.security.web.authentication.logout.LogoutFilter@1abb7ae1, by.ermakovich.contacts.filters.JwtFilter@e39e802, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63d9bda1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@219ce733, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f42a89, org.springframework.security.web.session.SessionManagementFilter@26e8f95a, org.springframework.security.web.access.ExceptionTranslationFilter@66e9b8f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b9ef5b6]
+2020-12-01 22:51:06.670  WARN 22188 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:51:06.741  INFO 22188 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:51:07.005  INFO 22188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:51:07.050  INFO 22188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:51:07.053  INFO 22188 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:51:07.426  INFO 22188 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:51:07.432  INFO 22188 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:51:07.593  INFO 22188 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:51:07.601  INFO 22188 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.087 seconds (JVM running for 3.649)
+2020-12-01 22:51:09.879  INFO 22188 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:51:09.894  INFO 22188 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:51:09.894  INFO 22188 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:51:10.032  INFO 22188 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:51:10.032  INFO 22188 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:51:18.157  INFO 1764 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 1764 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:51:18.159  INFO 1764 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:51:18.212  INFO 1764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:51:18.213  INFO 1764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:51:18.966  INFO 1764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:51:19.012  INFO 1764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 2 JPA repository interfaces.
+2020-12-01 22:51:19.444  INFO 1764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:51:19.450  INFO 1764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:51:19.451  INFO 1764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:51:19.514  INFO 1764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:51:19.514  INFO 1764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1301 ms
+2020-12-01 22:51:19.547  INFO 1764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:51:19.668  INFO 1764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:51:19.673  INFO 1764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:51:19.754  WARN 1764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:51:19.812  INFO 1764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:51:19.848  INFO 1764 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:51:19.898  INFO 1764 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:51:20.012  INFO 1764 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:51:20.044  INFO 1764 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@538dc367, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ecdce06, org.springframework.security.web.header.HeaderWriterFilter@4edcc03e, org.springframework.security.web.authentication.logout.LogoutFilter@7b3aa602, by.ermakovich.contacts.filters.JwtFilter@5d972d7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@282378e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7da32881, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e84184d, org.springframework.security.web.session.SessionManagementFilter@45ba3cf4, org.springframework.security.web.access.ExceptionTranslationFilter@7571e4cb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10113699]
+2020-12-01 22:51:20.055  WARN 1764 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:51:20.150  INFO 1764 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:51:20.406  INFO 1764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:51:20.454  INFO 1764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:51:20.456  INFO 1764 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:51:20.847  INFO 1764 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:51:20.852  INFO 1764 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:51:21.011  INFO 1764 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:51:21.019  INFO 1764 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.184 seconds (JVM running for 3.773)
+2020-12-01 22:51:22.640  INFO 1764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:51:22.660  INFO 1764 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:51:22.661  INFO 1764 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:51:22.802  INFO 1764 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:51:22.802  INFO 1764 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:30.639  INFO 1764 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:30.640  INFO 1764 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:30.649  INFO 1764 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:30.650  INFO 1764 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:31.900  INFO 1764 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:31.901  INFO 1764 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:31.910  INFO 1764 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:31.911  INFO 1764 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:39.332  INFO 996 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 996 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:54:39.335  INFO 996 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:54:39.383  INFO 996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:54:39.385  INFO 996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:54:39.944  INFO 996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:54:39.989  INFO 996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-12-01 22:54:40.402  INFO 996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:54:40.408  INFO 996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:54:40.409  INFO 996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:54:40.469  INFO 996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:54:40.470  INFO 996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1084 ms
+2020-12-01 22:54:40.501  INFO 996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:54:40.610  INFO 996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:54:40.615  INFO 996 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:54:40.722  WARN 996 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:54:40.761  INFO 996 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:54:40.799  INFO 996 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:54:40.851  INFO 996 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:54:40.954  INFO 996 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:54:40.961  INFO 996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9559b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@10369396, org.springframework.security.web.header.HeaderWriterFilter@19aa312, org.springframework.security.web.authentication.logout.LogoutFilter@64e98829, by.ermakovich.contacts.filters.JwtFilter@33161825, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42473d5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4e041c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e301447, org.springframework.security.web.session.SessionManagementFilter@65ca0038, org.springframework.security.web.access.ExceptionTranslationFilter@219ce733, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f32d852]
+2020-12-01 22:54:40.968  WARN 996 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:54:41.056  INFO 996 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:54:41.256  INFO 996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:54:41.292  INFO 996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:54:41.294  INFO 996 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:54:41.611  INFO 996 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:54:41.616  INFO 996 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:54:41.776  INFO 996 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:54:41.787  INFO 996 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.816 seconds (JVM running for 3.405)
+2020-12-01 22:54:43.975  INFO 996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:54:44.001  INFO 996 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:44.002  INFO 996 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:54:44.142  INFO 996 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:54:44.142  INFO 996 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:30.274  INFO 20448 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 20448 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:55:30.278  INFO 20448 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:55:30.337  INFO 20448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:55:30.337  INFO 20448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:55:30.908  INFO 20448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:55:30.955  INFO 20448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 2 JPA repository interfaces.
+2020-12-01 22:55:31.378  INFO 20448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:55:31.384  INFO 20448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:55:31.384  INFO 20448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:55:31.449  INFO 20448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:55:31.449  INFO 20448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1112 ms
+2020-12-01 22:55:31.480  INFO 20448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:55:31.592  INFO 20448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:55:31.597  INFO 20448 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:55:31.687  WARN 20448 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:55:31.722  INFO 20448 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:55:31.751  INFO 20448 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:55:31.794  INFO 20448 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:55:31.885  INFO 20448 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:55:31.900  INFO 20448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9559b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@10369396, org.springframework.security.web.header.HeaderWriterFilter@19aa312, org.springframework.security.web.authentication.logout.LogoutFilter@64e98829, by.ermakovich.contacts.filters.JwtFilter@33161825, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42473d5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4e041c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e301447, org.springframework.security.web.session.SessionManagementFilter@65ca0038, org.springframework.security.web.access.ExceptionTranslationFilter@219ce733, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f32d852]
+2020-12-01 22:55:31.911  WARN 20448 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:55:31.979  INFO 20448 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:55:32.221  INFO 20448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:55:32.257  INFO 20448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:55:32.258  INFO 20448 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:55:32.581  INFO 20448 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:55:32.586  INFO 20448 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:55:32.739  INFO 20448 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:55:32.746  INFO 20448 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.805 seconds (JVM running for 3.425)
+2020-12-01 22:55:39.719  INFO 18036 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 18036 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 22:55:39.722  INFO 18036 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 22:55:39.820  INFO 18036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 22:55:39.821  INFO 18036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 22:55:40.464  INFO 18036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 22:55:40.508  INFO 18036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-12-01 22:55:40.935  INFO 18036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 22:55:40.942  INFO 18036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 22:55:40.942  INFO 18036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 22:55:40.999  INFO 18036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 22:55:41.000  INFO 18036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2020-12-01 22:55:41.029  INFO 18036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 22:55:41.143  INFO 18036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 22:55:41.148  INFO 18036 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 22:55:41.241  WARN 18036 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 22:55:41.286  INFO 18036 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 22:55:41.319  INFO 18036 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 22:55:41.353  INFO 18036 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 22:55:41.444  INFO 18036 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 22:55:41.458  INFO 18036 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c3cf6af, org.springframework.security.web.context.SecurityContextPersistenceFilter@4424df1d, org.springframework.security.web.header.HeaderWriterFilter@7f9fcc51, org.springframework.security.web.authentication.logout.LogoutFilter@187c7e2e, by.ermakovich.contacts.filters.JwtFilter@581cb5b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73d4c966, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@311f7d86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c15c2e9, org.springframework.security.web.session.SessionManagementFilter@38be0a6e, org.springframework.security.web.access.ExceptionTranslationFilter@45aa8a3e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@196c8411]
+2020-12-01 22:55:41.465  WARN 18036 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 22:55:41.522  INFO 18036 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 22:55:41.758  INFO 18036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 22:55:41.791  INFO 18036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 22:55:41.793  INFO 18036 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 22:55:42.107  INFO 18036 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 22:55:42.112  INFO 18036 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 22:55:42.269  INFO 18036 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 22:55:42.277  INFO 18036 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.939 seconds (JVM running for 3.542)
+2020-12-01 22:55:43.641  INFO 18036 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 22:55:43.664  INFO 18036 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:43.665  INFO 18036 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:43.800  INFO 18036 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:43.801  INFO 18036 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:48.460  INFO 18036 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:48.461  INFO 18036 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:48.468  INFO 18036 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:48.469  INFO 18036 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:52.555  INFO 18036 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:52.555  INFO 18036 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:52.562  INFO 18036 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:52.562  INFO 18036 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:55.461  INFO 18036 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:55.462  INFO 18036 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 22:55:55.470  INFO 18036 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 22:55:55.470  INFO 18036 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:09:48.811  INFO 21104 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 21104 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:09:48.814  INFO 21104 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:09:48.873  INFO 21104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:09:48.874  INFO 21104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:09:49.416  INFO 21104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:09:49.458  INFO 21104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-12-01 23:09:49.860  INFO 21104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:09:49.866  INFO 21104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:09:49.867  INFO 21104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:09:49.928  INFO 21104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:09:49.929  INFO 21104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1055 ms
+2020-12-01 23:09:49.960  INFO 21104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:09:50.172  INFO 21104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:09:50.177  INFO 21104 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:09:50.261  WARN 21104 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:09:50.296  INFO 21104 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:09:50.323  INFO 21104 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:09:50.356  INFO 21104 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:09:50.441  INFO 21104 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:09:50.459  INFO 21104 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@116819dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@42a4c3d1, org.springframework.security.web.header.HeaderWriterFilter@2d489bc2, org.springframework.security.web.authentication.logout.LogoutFilter@45ba3cf4, by.ermakovich.contacts.filters.JwtFilter@1e0d9c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@289a08d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2134c8bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@630f5978, org.springframework.security.web.session.SessionManagementFilter@28ca5f41, org.springframework.security.web.access.ExceptionTranslationFilter@c269332, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6830db04]
+2020-12-01 23:09:50.469  WARN 21104 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:09:50.530  INFO 21104 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:09:50.758  INFO 21104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:09:50.793  INFO 21104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:09:50.795  INFO 21104 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:09:51.109  INFO 21104 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:09:51.114  INFO 21104 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:09:51.266  INFO 21104 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:09:51.273  INFO 21104 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.758 seconds (JVM running for 3.35)
+2020-12-01 23:09:53.811  INFO 21104 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:09:53.834  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:09:53.834  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:09:53.960  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:09:53.960  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:10:59.680  INFO 21104 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:10:59.681  INFO 21104 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:10:59.699  INFO 21104 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:10:59.699  INFO 21104 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:11:11.445  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:11.446  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:11:11.448  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:11.448  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:11:12.604  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:12.604  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:12.607  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:12.607  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:12.887  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:12.888  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:12.901  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:12.901  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:35.705  INFO 21104 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:35.706  INFO 21104 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:35.713  INFO 21104 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:35.714  INFO 21104 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:51.556  INFO 21104 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:51.556  INFO 21104 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:11:51.556  INFO 21104 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:51.556  INFO 21104 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:11:52.715  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:52.716  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:52.720  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:52.720  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:53.008  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:53.009  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:11:53.023  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:11:53.024  INFO 21104 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:10.154  INFO 21104 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:10.154  INFO 21104 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:10.159  INFO 21104 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:10.159  INFO 21104 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:31.629  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:31.630  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:12:31.630  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:31.630  INFO 21104 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:12:32.795  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:32.796  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:32.800  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:32.800  INFO 21104 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:33.085  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:33.085  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:33.096  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:33.096  INFO 21104 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:56.808  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:56.808  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:12:56.812  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:12:56.812  INFO 21104 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:13:14.182  INFO 6860 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 6860 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:13:14.184  INFO 6860 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:13:14.232  INFO 6860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:13:14.232  INFO 6860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:13:14.887  INFO 6860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:13:14.930  INFO 6860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-12-01 23:13:15.338  INFO 6860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:13:15.344  INFO 6860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:13:15.345  INFO 6860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:13:15.404  INFO 6860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:13:15.405  INFO 6860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2020-12-01 23:13:15.437  INFO 6860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:13:15.647  INFO 6860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:13:15.651  INFO 6860 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:13:15.726  WARN 6860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:13:15.759  INFO 6860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:13:15.787  INFO 6860 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:13:15.822  INFO 6860 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:13:15.906  INFO 6860 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:13:15.935  INFO 6860 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@429b796, org.springframework.security.web.context.SecurityContextPersistenceFilter@24cb7e9a, org.springframework.security.web.header.HeaderWriterFilter@64915443, org.springframework.security.web.authentication.logout.LogoutFilter@7090768f, by.ermakovich.contacts.filters.JwtFilter@79ff50e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@219ce733, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bf1490c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7236a47b, org.springframework.security.web.session.SessionManagementFilter@5e5cb5e4, org.springframework.security.web.access.ExceptionTranslationFilter@6f13401c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b1732ff]
+2020-12-01 23:13:15.942  WARN 6860 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:13:15.990  INFO 6860 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:13:16.229  INFO 6860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:13:16.285  INFO 6860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:13:16.286  INFO 6860 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:13:16.585  INFO 6860 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:13:16.590  INFO 6860 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:13:16.747  INFO 6860 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:13:16.755  INFO 6860 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.869 seconds (JVM running for 3.342)
+2020-12-01 23:13:19.787  INFO 6860 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:13:19.807  INFO 6860 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:13:19.808  INFO 6860 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:13:19.938  INFO 6860 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:13:19.938  INFO 6860 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:13:20.928  INFO 6860 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:13:20.928  INFO 6860 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:13:20.935  INFO 6860 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:13:20.936  INFO 6860 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:14:22.353  INFO 8940 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 8940 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:14:22.360  INFO 8940 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:14:22.426  INFO 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:14:22.426  INFO 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:14:23.097  INFO 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:14:23.143  INFO 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-12-01 23:14:23.652  INFO 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:14:23.665  INFO 8940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:14:23.667  INFO 8940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:14:23.772  INFO 8940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:14:23.772  INFO 8940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2020-12-01 23:14:23.837  INFO 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:14:24.004  INFO 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:14:24.009  INFO 8940 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:14:24.118  WARN 8940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:14:24.159  INFO 8940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:14:24.193  INFO 8940 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:14:24.235  INFO 8940 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:14:24.363  INFO 8940 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:14:24.375  INFO 8940 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e301447, org.springframework.security.web.context.SecurityContextPersistenceFilter@10369396, org.springframework.security.web.header.HeaderWriterFilter@19aa312, org.springframework.security.web.authentication.logout.LogoutFilter@64e98829, by.ermakovich.contacts.filters.JwtFilter@33161825, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42473d5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4e041c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21e18738, org.springframework.security.web.session.SessionManagementFilter@65ca0038, org.springframework.security.web.access.ExceptionTranslationFilter@219ce733, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e698cb7]
+2020-12-01 23:14:24.388  WARN 8940 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:14:24.452  INFO 8940 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:14:24.820  INFO 8940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:14:24.853  INFO 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:14:24.855  INFO 8940 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:14:25.173  INFO 8940 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:14:25.178  INFO 8940 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:14:25.339  INFO 8940 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:14:25.347  INFO 8940 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.392 seconds (JVM running for 4.056)
+2020-12-01 23:14:28.173  INFO 8940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:14:28.188  INFO 8940 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:28.189  INFO 8940 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:14:28.326  INFO 8940 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:28.326  INFO 8940 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-01 23:14:39.677  INFO 8940 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:39.677  INFO 8940 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:14:39.679  INFO 8940 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:39.680  INFO 8940 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-01 23:14:40.731  INFO 8940 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:40.731  INFO 8940 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:14:40.736  INFO 8940 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:40.736  INFO 8940 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:14:40.988  INFO 8940 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:40.990  INFO 8940 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:14:41.000  INFO 8940 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:41.000  INFO 8940 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:14:50.395  INFO 8940 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:50.395  INFO 8940 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:14:50.401  INFO 8940 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:14:50.402  INFO 8940 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:17:02.307  INFO 1136 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 1136 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:17:02.310  INFO 1136 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:17:02.356  INFO 1136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:17:02.357  INFO 1136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:17:02.950  INFO 1136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:17:02.995  INFO 1136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-12-01 23:17:03.412  INFO 1136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:17:03.419  INFO 1136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:17:03.419  INFO 1136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:17:03.492  INFO 1136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:17:03.492  INFO 1136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2020-12-01 23:17:03.527  INFO 1136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:17:03.740  INFO 1136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:17:03.746  INFO 1136 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:17:03.834  WARN 1136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:17:03.869  INFO 1136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:17:03.896  INFO 1136 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:17:03.926  INFO 1136 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:17:04.023  INFO 1136 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:17:04.044  INFO 1136 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c15c2e9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bf1490c, org.springframework.security.web.header.HeaderWriterFilter@518542b6, org.springframework.security.web.authentication.logout.LogoutFilter@388e82e6, by.ermakovich.contacts.filters.JwtFilter@3f520b0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@629c76e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1591e210, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25fc6d71, org.springframework.security.web.session.SessionManagementFilter@5a997812, org.springframework.security.web.access.ExceptionTranslationFilter@2866c972, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@429b796]
+2020-12-01 23:17:04.054  WARN 1136 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:17:04.133  INFO 1136 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:17:04.364  INFO 1136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:17:04.402  INFO 1136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:17:04.404  INFO 1136 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:17:04.758  INFO 1136 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:17:04.764  INFO 1136 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:17:04.929  INFO 1136 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:17:04.937  INFO 1136 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.964 seconds (JVM running for 3.559)
+2020-12-01 23:17:13.617  INFO 1136 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:17:13.633  INFO 1136 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:17:13.633  INFO 1136 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:17:13.758  INFO 1136 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:17:13.758  INFO 1136 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:17:55.637  INFO 10760 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 10760 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:17:55.641  INFO 10760 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:17:55.712  INFO 10760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:17:55.713  INFO 10760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:17:56.419  INFO 10760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:17:56.467  INFO 10760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 2 JPA repository interfaces.
+2020-12-01 23:17:56.891  INFO 10760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:17:56.898  INFO 10760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:17:56.899  INFO 10760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:17:56.959  INFO 10760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:17:56.960  INFO 10760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2020-12-01 23:17:57.002  INFO 10760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:17:57.136  INFO 10760 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:17:57.141  INFO 10760 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:17:57.235  WARN 10760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:17:57.271  INFO 10760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:17:57.301  INFO 10760 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:17:57.344  INFO 10760 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:17:57.428  INFO 10760 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:17:57.462  INFO 10760 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58d14033, org.springframework.security.web.context.SecurityContextPersistenceFilter@260ef7d4, org.springframework.security.web.header.HeaderWriterFilter@7bdc4227, org.springframework.security.web.authentication.logout.LogoutFilter@456a5b8d, by.ermakovich.contacts.filters.JwtFilter@4ff9fdcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fb73e2b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f838a63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@347d492b, org.springframework.security.web.session.SessionManagementFilter@535c5433, org.springframework.security.web.access.ExceptionTranslationFilter@200b1a17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35cb0a07]
+2020-12-01 23:17:57.470  WARN 10760 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:17:57.518  INFO 10760 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:17:57.784  INFO 10760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:17:57.826  INFO 10760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:17:57.828  INFO 10760 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:17:58.143  INFO 10760 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:17:58.148  INFO 10760 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:17:58.321  INFO 10760 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:17:58.329  INFO 10760 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.046 seconds (JVM running for 3.749)
+2020-12-01 23:18:02.710  INFO 10760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:18:02.724  INFO 10760 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:02.725  INFO 10760 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:02.865  INFO 10760 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:02.865  INFO 10760 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:07.310  INFO 10760 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:07.310  INFO 10760 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:07.317  INFO 10760 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:07.317  INFO 10760 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:08.444  INFO 10760 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:08.444  INFO 10760 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:08.451  INFO 10760 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:08.451  INFO 10760 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:13.031  INFO 10760 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:13.031  INFO 10760 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:13.038  INFO 10760 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:13.039  INFO 10760 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:29.246  INFO 22772 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 22772 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:18:29.249  INFO 22772 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:18:29.295  INFO 22772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:18:29.296  INFO 22772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:18:29.847  INFO 22772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:18:29.905  INFO 22772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+2020-12-01 23:18:30.331  INFO 22772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:18:30.337  INFO 22772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:18:30.338  INFO 22772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:18:30.398  INFO 22772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:18:30.398  INFO 22772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1102 ms
+2020-12-01 23:18:30.428  INFO 22772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:18:30.531  INFO 22772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:18:30.536  INFO 22772 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:18:30.620  WARN 22772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:18:30.657  INFO 22772 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:18:30.691  INFO 22772 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:18:30.728  INFO 22772 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:18:30.815  INFO 22772 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:18:30.838  INFO 22772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ee78bcf, org.springframework.security.web.context.SecurityContextPersistenceFilter@173f8d3c, org.springframework.security.web.header.HeaderWriterFilter@3b27ad6, org.springframework.security.web.authentication.logout.LogoutFilter@53306576, by.ermakovich.contacts.filters.JwtFilter@73bcddd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a499d92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2971a52f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@363b1518, org.springframework.security.web.session.SessionManagementFilter@5917aa2b, org.springframework.security.web.access.ExceptionTranslationFilter@30da1c75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@630f5978]
+2020-12-01 23:18:30.845  WARN 22772 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:18:30.896  INFO 22772 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:18:31.134  INFO 22772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:18:31.182  INFO 22772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:18:31.185  INFO 22772 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:18:31.508  INFO 22772 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:18:31.514  INFO 22772 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:18:31.684  INFO 22772 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:18:31.692  INFO 22772 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.784 seconds (JVM running for 3.408)
+2020-12-01 23:18:48.486  INFO 22772 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:18:48.506  INFO 22772 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:48.506  INFO 22772 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:18:48.639  INFO 22772 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:18:48.639  INFO 22772 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:23:12.631  INFO 2580 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 2580 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:23:12.633  INFO 2580 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:23:12.673  INFO 2580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:23:12.674  INFO 2580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:23:13.183  INFO 2580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:23:13.226  INFO 2580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-12-01 23:23:13.652  INFO 2580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:23:13.659  INFO 2580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:23:13.659  INFO 2580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:23:13.722  INFO 2580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:23:13.722  INFO 2580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2020-12-01 23:23:13.753  INFO 2580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:23:13.891  INFO 2580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:23:13.895  INFO 2580 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:23:13.974  WARN 2580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:23:14.008  INFO 2580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:23:14.039  INFO 2580 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:23:14.073  INFO 2580 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:23:14.168  INFO 2580 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:23:14.196  INFO 2580 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14904cd8, org.springframework.security.web.context.SecurityContextPersistenceFilter@ed6f1d, org.springframework.security.web.header.HeaderWriterFilter@55ec808f, org.springframework.security.web.authentication.logout.LogoutFilter@63a5fbd8, by.ermakovich.contacts.filters.JwtFilter@663b0c42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f198cdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12852f85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6761691c, org.springframework.security.web.session.SessionManagementFilter@343c5042, org.springframework.security.web.access.ExceptionTranslationFilter@60b7b60e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66b3d118]
+2020-12-01 23:23:14.206  WARN 2580 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:23:14.249  INFO 2580 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:23:14.499  INFO 2580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:23:14.535  INFO 2580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:23:14.537  INFO 2580 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:23:14.832  INFO 2580 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:23:14.837  INFO 2580 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:23:14.986  INFO 2580 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:23:14.994  INFO 2580 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.711 seconds (JVM running for 3.946)
+2020-12-01 23:23:17.035  INFO 2580 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:23:17.050  INFO 2580 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:23:17.050  INFO 2580 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:23:17.192  INFO 2580 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:23:17.192  INFO 2580 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:23:54.535  INFO 20916 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 20916 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:23:54.539  INFO 20916 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:23:54.597  INFO 20916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:23:54.597  INFO 20916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:23:55.218  INFO 20916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:23:55.269  INFO 20916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 2 JPA repository interfaces.
+2020-12-01 23:23:55.696  INFO 20916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:23:55.704  INFO 20916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:23:55.704  INFO 20916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:23:55.768  INFO 20916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:23:55.768  INFO 20916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2020-12-01 23:23:55.801  INFO 20916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:23:55.912  INFO 20916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:23:55.917  INFO 20916 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:23:55.997  WARN 20916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:23:56.033  INFO 20916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:23:56.065  INFO 20916 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:23:56.109  INFO 20916 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:23:56.216  INFO 20916 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:23:56.260  INFO 20916 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7236a47b, org.springframework.security.web.context.SecurityContextPersistenceFilter@219ce733, org.springframework.security.web.header.HeaderWriterFilter@173fd84d, org.springframework.security.web.authentication.logout.LogoutFilter@52fe78f3, by.ermakovich.contacts.filters.JwtFilter@638c18cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19aa312, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@629c76e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2eea3891, org.springframework.security.web.session.SessionManagementFilter@24cb7e9a, org.springframework.security.web.access.ExceptionTranslationFilter@64915443, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f42a89]
+2020-12-01 23:23:56.268  WARN 20916 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:23:56.344  INFO 20916 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:23:56.587  INFO 20916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:23:56.628  INFO 20916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:23:56.630  INFO 20916 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:23:56.950  INFO 20916 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:23:56.955  INFO 20916 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:23:57.115  INFO 20916 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:23:57.123  INFO 20916 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.966 seconds (JVM running for 3.613)
+2020-12-01 23:24:48.748  INFO 20916 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:24:48.762  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:24:48.763  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:24:48.889  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:24:48.890  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:24:48.903  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:24:48.903  INFO 20916 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:24:53.454  INFO 20916 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:24:53.454  INFO 20916 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:24:53.462  INFO 20916 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:24:53.462  INFO 20916 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:25:05.240  INFO 20916 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:25:05.240  INFO 20916 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:25:05.247  INFO 20916 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:25:05.247  INFO 20916 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:25:17.966  INFO 20916 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:25:17.967  INFO 20916 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:25:17.972  INFO 20916 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:25:17.972  INFO 20916 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:30:34.435  INFO 18464 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 18464 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:30:34.438  INFO 18464 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:30:34.482  INFO 18464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:30:34.483  INFO 18464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:30:34.979  INFO 18464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:30:35.022  INFO 18464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-12-01 23:30:35.682  INFO 18464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:30:35.688  INFO 18464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:30:35.688  INFO 18464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:30:35.754  INFO 18464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:30:35.755  INFO 18464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1272 ms
+2020-12-01 23:30:35.792  INFO 18464 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:30:35.903  INFO 18464 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:30:35.909  INFO 18464 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:30:36.002  WARN 18464 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:30:36.038  INFO 18464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:30:36.071  INFO 18464 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:30:36.114  INFO 18464 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:30:36.263  INFO 18464 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:30:36.297  INFO 18464 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e6cff39, org.springframework.security.web.context.SecurityContextPersistenceFilter@701d6025, org.springframework.security.web.header.HeaderWriterFilter@5caab25c, org.springframework.security.web.authentication.logout.LogoutFilter@5a997812, by.ermakovich.contacts.filters.JwtFilter@7230fe77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e03c587, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62d967aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2008c9d6, org.springframework.security.web.session.SessionManagementFilter@72d415b, org.springframework.security.web.access.ExceptionTranslationFilter@1c3862c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13e69306]
+2020-12-01 23:30:36.303  WARN 18464 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:30:36.370  INFO 18464 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:30:36.621  INFO 18464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:30:36.657  INFO 18464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:30:36.659  INFO 18464 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:30:37.078  INFO 18464 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:30:37.082  INFO 18464 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:30:37.384  INFO 18464 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:30:37.395  INFO 18464 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 3.457 seconds (JVM running for 4.061)
+2020-12-01 23:30:38.374  INFO 18464 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:30:38.388  INFO 18464 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:30:38.388  INFO 18464 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:30:38.528  INFO 18464 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:30:38.528  INFO 18464 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:30:48.578  INFO 18464 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:30:48.578  INFO 18464 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:30:48.589  INFO 18464 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:30:48.589  INFO 18464 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:31:22.802  INFO 18216 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 18216 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-01 23:31:22.806  INFO 18216 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-01 23:31:22.868  INFO 18216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 23:31:22.869  INFO 18216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 23:31:23.464  INFO 18216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 23:31:23.507  INFO 18216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 2 JPA repository interfaces.
+2020-12-01 23:31:23.929  INFO 18216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-01 23:31:23.935  INFO 18216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 23:31:23.935  INFO 18216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-01 23:31:23.992  INFO 18216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-01 23:31:23.992  INFO 18216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
+2020-12-01 23:31:24.022  INFO 18216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 23:31:24.129  INFO 18216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 23:31:24.134  INFO 18216 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-01 23:31:24.212  WARN 18216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 23:31:24.248  INFO 18216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 23:31:24.279  INFO 18216 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 23:31:24.313  INFO 18216 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-01 23:31:24.399  INFO 18216 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 23:31:24.434  INFO 18216 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b5bb068, org.springframework.security.web.context.SecurityContextPersistenceFilter@3523de07, org.springframework.security.web.header.HeaderWriterFilter@6f5b8ac1, org.springframework.security.web.authentication.logout.LogoutFilter@1c779c4d, by.ermakovich.contacts.filters.JwtFilter@7fba9439, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d3ee07a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33b47472, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76bc20fb, org.springframework.security.web.session.SessionManagementFilter@56f36b47, org.springframework.security.web.access.ExceptionTranslationFilter@2c7554ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5359128c]
+2020-12-01 23:31:24.446  WARN 18216 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-01 23:31:24.482  INFO 18216 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-01 23:31:24.713  INFO 18216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 23:31:24.747  INFO 18216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-01 23:31:24.748  INFO 18216 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 23:31:25.019  INFO 18216 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 23:31:25.024  INFO 18216 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 23:31:25.181  INFO 18216 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 23:31:25.189  INFO 18216 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 2.713 seconds (JVM running for 3.387)
+2020-12-01 23:31:26.468  INFO 18216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 23:31:26.483  INFO 18216 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:31:26.483  INFO 18216 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:31:26.619  INFO 18216 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:31:26.620  INFO 18216 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:31:33.282  INFO 18216 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:31:33.283  INFO 18216 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-01 23:31:33.289  INFO 18216 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-01 23:31:33.289  INFO 18216 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw

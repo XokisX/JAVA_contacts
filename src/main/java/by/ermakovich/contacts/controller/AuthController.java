@@ -1,6 +1,9 @@
 package by.ermakovich.contacts.controller;
 
 import by.ermakovich.contacts.config.jwt.JwtProvider;
+import by.ermakovich.contacts.controller.entity.AuthRequest;
+import by.ermakovich.contacts.controller.entity.RegistrationRequest;
+import by.ermakovich.contacts.controller.entity.ServerResponce;
 import by.ermakovich.contacts.entity.UserEntity;
 import by.ermakovich.contacts.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,4 +46,5 @@ public class AuthController {
         }
         return new ServerResponce(false, "Wrong login or password", null);
     }
+
 }

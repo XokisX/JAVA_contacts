@@ -1,4 +1,4 @@
-package by.ermakovich.contacts.controller;
+package by.ermakovich.contacts.controller.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package by.ermakovich.contacts.controller;
+package by.ermakovich.contacts.controller.entity;
 
 
 import javax.validation.constraints.NotEmpty;

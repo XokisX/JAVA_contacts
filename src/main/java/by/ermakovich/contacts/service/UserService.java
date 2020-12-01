@@ -8,6 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.swing.text.html.parser.Entity;
+import java.awt.print.Pageable;
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class UserService {
 
@@ -39,5 +44,80 @@ public class UserService {
             }
         }
         return null;
+    }
+
+    public List<UserEntity> getAllUser(int pagePar, int limit){
+        List<UserEntity> result = new ArrayList<>();
+        List<UserEntity> list = userEntityRepos.findAll();
+        long totalUsers = userEntityRepos.count();
+
+        int totalPage =0;
+        if(totalUsers/limit>(int)(totalUsers/limit)){
+            totalPage = (int)(totalUsers/limit) + 1;
+        }else{
+            totalPage = (int)(totalUsers/limit);
+        }
+
+        int currentPage = pagePar-1;
+        if(totalPage<pagePar){
+            currentPage = totalPage;
+        }
+
+        long startPos = currentPage*limit;
+        long endPos= (currentPage+1)*limit;
+        if((currentPage+1)*limit>totalUsers){
+            endPos=totalUsers;
+        }
+        long index =0;
+
+        for (UserEntity user:list) {
+            if(index>=startPos&&index<endPos) {
+                user.setPassword("");
+                user.setLogin("");
+                result.add(user);
+            }
+            index++;
+        }
+        return result;
+    }
+    public List<UserEntity> searchUser(String info,int pagePar, int limit){
+        List<UserEntity> result = new ArrayList<>();
+        List<UserEntity> list = new ArrayList<>();
+        for (UserEntity user: userEntityRepos.findAll()) {
+            if (user.getNumber().contains(info) ||
+                    user.getEmail().contains(info) ||
+                    user.getUsername().contains(info)) {
+                user.setPassword("");
+                user.setLogin("");
+                list.add(user);
+            }
+        }
+        long totalUsers = list.size();
+
+        int totalPage =0;
+        if(totalUsers/limit>(int)(totalUsers/limit)){
+            totalPage = (int)(totalUsers/limit) + 1;
+        }else{
+            totalPage = (int)(totalUsers/limit);
+        }
+
+        int currentPage = pagePar-1;
+        if(totalPage<pagePar){
+            currentPage = totalPage;
+        }
+
+        long startPos = currentPage*limit;
+        long endPos= (currentPage+1)*limit;
+        if((currentPage+1)*limit>totalUsers){
+            endPos=totalUsers;
+        }
+        long index =0;
+        for (UserEntity user:list) {
+            if(index>=startPos&&index<endPos) {
+                result.add(user);
+            }
+            index++;
+        }
+        return result;
     }
 }
