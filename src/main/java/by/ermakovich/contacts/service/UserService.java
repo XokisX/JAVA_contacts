@@ -29,6 +29,16 @@ public class UserService {
         RoleEntity userRole = roleEntityRepos.findByName("ROLE_USER");
         userEntity.setRoleEntity(userRole);
         userEntity.setPassword(passwordEncoder.encode(userEntity.getPassword()));
+        for (UserEntity user: userEntityRepos.findAll()) {
+            if(
+                    userEntity.getLogin().equals(user.getLogin()) ||
+                            userEntity.getUsername().equals(user.getUsername()) ||
+                            userEntity.getEmail().equals(user.getEmail()) ||
+                            userEntity.getNumber().equals(user.getNumber())
+            ){
+                return null;
+            }
+        }
         return userEntityRepos.save(userEntity);
     }
 

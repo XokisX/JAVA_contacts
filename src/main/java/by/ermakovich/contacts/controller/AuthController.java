@@ -27,14 +27,27 @@ public class AuthController {
     @PostMapping("/register")
     public ServerResponce registerUser(@RequestBody  @Valid RegistrationRequest registrationRequest ){
         UserEntity user = new UserEntity();
-        user.setPassword(registrationRequest.getPassword());
-        user.setLogin(registrationRequest.getPassword());
-        user.setEmail(registrationRequest.getEmail());
-        user.setIs_blocked(false);
-        user.setNumber(registrationRequest.getNumber());
-        user.setUsername(registrationRequest.getUsername());
-        userService.saveUser(user);
-        return new ServerResponce(true,"User register",null);
+        String password =registrationRequest.getPassword();
+        String login =registrationRequest.getLogin();
+        String email =registrationRequest.getEmail();
+        String number =registrationRequest.getNumber();
+        String username =registrationRequest.getUsername();
+
+        if(password!=null&&login!=null&&email!=null&&number!=null&&username!=null&&
+            password!=""&&login!=""&&email!=""&&number!=""&&username!="") {
+            user.setPassword(registrationRequest.getPassword());
+            user.setLogin(registrationRequest.getLogin());
+            user.setEmail(registrationRequest.getEmail());
+            user.setIs_blocked(false);
+            user.setNumber(registrationRequest.getNumber());
+            user.setUsername(registrationRequest.getUsername());
+            if (userService.saveUser(user) != null) {
+                return new ServerResponce(true, "User register", null);
+            } else {
+                return new ServerResponce(false, "Already exist", null);
+            }
+        }
+        return new ServerResponce(false, "Fields is empty!", null);
     }
 
     @PostMapping("/auth")

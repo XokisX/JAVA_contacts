@@ -4,6 +4,8 @@ package by.ermakovich.contacts.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "users")
@@ -83,14 +85,22 @@ public class UserEntity {
     private Long id;
 
     @Column(unique = true)
+    @NotEmpty
+    @NotNull
     private  String username;
 
+    @NotEmpty
+    @NotNull
     @Column(unique = true)
     private String login;
 
+    @NotEmpty
+    @NotNull
     @Column(unique = true)
     private String email;
 
+    @NotEmpty
+    @NotNull
     @Column(unique = true)
     private String number;
 

@@ -34,10 +34,10 @@ public class ContactService {
     @Autowired
     private JavaMailSender emailSender;
 
-    public boolean saveContact(Long my_id,Long friend_id){
+    public ContactEntity saveContact(Long my_id,Long friend_id){
         for (ContactEntity contact:contactEntityRepos.findAll()) {
             if(contact.getUser1().getId().equals(my_id) && contact.getUser2().getId().equals(friend_id)){
-                return false;
+                return null;
             }
         }
         ContactEntity contact = new ContactEntity();
@@ -54,9 +54,9 @@ public class ContactService {
             contact.setUser1(user1);
             contact.setUser2(user2);
             contactEntityRepos.save(contact);
-            return true;
+            return contact;
         }
-        return false;
+        return null;
 
     }
 
@@ -73,7 +73,7 @@ public class ContactService {
         return list;
     }
 
-    public Boolean deleteContact(String login,Long my_id,ArrayList<Long> contacts){
+    public ContactEntity deleteContact(String login,Long my_id,ArrayList<Long> contacts){
         UserEntity user = userEntityRepos.findByLogin(login);
         List<ContactEntity> list = new ArrayList<>();
         if(user!=null&& user.getId().equals(my_id)){
@@ -82,14 +82,16 @@ public class ContactService {
                     list.add(contact);
                 }
             }
+            ContactEntity contactRes = new ContactEntity();
             for (ContactEntity contact:list) {
                 if(contacts.contains(contact.getUser2().getId())){
+                    contactRes=contact;
                     contactEntityRepos.delete(contact);
                 }
             }
-            return true;
+            return contactRes;
         }
-        return false;
+        return null;
     }
 
     public Boolean sendMessageToContacts(String login,Long my_id,ArrayList<Long> contacts,String msg) throws IOException, MessagingException {
