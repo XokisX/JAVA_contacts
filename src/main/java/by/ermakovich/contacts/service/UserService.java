@@ -62,6 +62,9 @@ public class UserService {
         if(totalPage<pagePar){
             currentPage = totalPage;
         }
+        if((pagePar-1)<0){
+            currentPage=0;
+        }
 
         long startPos = currentPage*limit;
         long endPos= (currentPage+1)*limit;
@@ -80,6 +83,7 @@ public class UserService {
         }
         return result;
     }
+
     public List<UserEntity> searchUser(String info,int pagePar, int limit){
         List<UserEntity> result = new ArrayList<>();
         List<UserEntity> list = new ArrayList<>();

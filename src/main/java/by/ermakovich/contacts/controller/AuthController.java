@@ -7,12 +7,14 @@ import by.ermakovich.contacts.controller.entity.ServerResponce;
 import by.ermakovich.contacts.entity.UserEntity;
 import by.ermakovich.contacts.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class AuthController {
 
