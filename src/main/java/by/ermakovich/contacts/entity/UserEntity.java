@@ -111,7 +111,7 @@ public class UserEntity {
     @Column
     private String password;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "role_id")
     private  RoleEntity roleEntity;
 

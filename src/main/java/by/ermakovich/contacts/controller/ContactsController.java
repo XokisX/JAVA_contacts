@@ -113,7 +113,8 @@ public class ContactsController {
             if(login!=null){
                 Long my_id = request.getMy_id();
                 Long friend_id = request.getFriend_id();
-                contactValidator.validate(new ContactEntity((long)-1),result);
+                contactValidator.validate(new ContactEntity(my_id),result);
+                contactValidator.validate(new ContactEntity(friend_id),result);
                 if(!result.hasErrors()){
                     if(my_id!=null&&friend_id!=null){
                         ContactEntity contact =contactService.saveContact(my_id,friend_id);
@@ -174,11 +175,62 @@ public class ContactsController {
     }
 
     @PostMapping("/apiAdmin/deleteUser")
-    public ServerResponce deleteUser(@RequestHeader(name = "Authorization") String token){
+    public ServerResponce deleteUser(@RequestHeader(name = "Authorization") String token,@RequestBody DeleteRequest request){
         String login = jwtProvider.getLoginFromToken(token.substring(7));
+        Long id = request.getUserId();
         if(login!=null) {
-            
-            return new ServerResponce(false,"Contacts not found",null);
+            if(id!=null) {
+                UserEntity deletedUser = userService.deleteUser(id);
+                return new ServerResponce(true, "User is deleted", deletedUser);
+            }else{
+                return new ServerResponce(false,"Null param",null);
+            }
+        }
+        return new ServerResponce(false,"Permissions error",null);
+    }
+
+    @PostMapping("/apiAdmin/blockUser")
+    public ServerResponce blockUser(@RequestHeader(name = "Authorization") String token,@RequestBody BlockRequest request){
+        String login = jwtProvider.getLoginFromToken(token.substring(7));
+        Long id = request.getUserId();
+        if(login!=null) {
+            if(id!=null) {
+                UserEntity deletedUser = userService.blockUser(id);
+                return new ServerResponce(true, "User is blocked/unlocked", deletedUser);
+            }else{
+                return new ServerResponce(false,"Null param",null);
+            }
+        }
+        return new ServerResponce(false,"Permissions error",null);
+    }
+
+    @PostMapping("/apiAdmin/register")
+    public ServerResponce register(@RequestHeader(name = "Authorization") String token,@RequestBody RegisterByAdminRequest registrationRequest){
+        String loginOwner = jwtProvider.getLoginFromToken(token.substring(7));
+        if(loginOwner!=null) {
+            UserEntity user = new UserEntity();
+            String password =registrationRequest.getPassword();
+            String login =registrationRequest.getLogin();
+            String email =registrationRequest.getEmail();
+            String number =registrationRequest.getNumber();
+            String username =registrationRequest.getUsername();
+            boolean admin =registrationRequest.isAdmin();
+            if(password!=null&&login!=null&&email!=null&&number!=null&&username!=null&&
+                password!=""&&login!=""&&email!=""&&number!=""&&username!="") {
+                user.setPassword(registrationRequest.getPassword());
+                user.setLogin(registrationRequest.getLogin());
+                user.setEmail(registrationRequest.getEmail());
+                user.setIs_blocked(false);
+                user.setNumber(registrationRequest.getNumber());
+                user.setUsername(registrationRequest.getUsername());
+                if (userService.saveUserByAdmin(user,registrationRequest.isAdmin()) != null) {
+                    return new ServerResponce(true, "User register", null);
+                } else {
+                    return new ServerResponce(false, "Already exist", null);
+                }
+            }
+            return new ServerResponce(false, "Fields is empty!", null);
+
         }
         return new ServerResponce(false,"Permissions error",null);
     }

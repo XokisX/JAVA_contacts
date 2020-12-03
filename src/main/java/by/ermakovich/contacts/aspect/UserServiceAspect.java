@@ -33,15 +33,12 @@ public class UserServiceAspect {
 
     @Before("callAtUserServiceSaveUser()")
     public void beforeCallAtUserServiceSaveUser(JoinPoint jp) throws ControllerException {
-        Object[] objects = jp.getArgs();
-        long id = (long) objects[0];
+
 
     }
 
     @Before("callAtUserServiceFindByLogin()")
     public void beforeCallAtUserServiceExistsUserByLogin(JoinPoint jp) throws ControllerException {
-        Object[] objects = jp.getArgs();
-        String login = (String) objects[0];
 
     }
 

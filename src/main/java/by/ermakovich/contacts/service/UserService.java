@@ -1,9 +1,13 @@
 package by.ermakovich.contacts.service;
 
+import by.ermakovich.contacts.entity.ContactEntity;
 import by.ermakovich.contacts.entity.RoleEntity;
 import by.ermakovich.contacts.entity.UserEntity;
+import by.ermakovich.contacts.repos.ContactEntityRepos;
 import by.ermakovich.contacts.repos.RoleEntityRepos;
 import by.ermakovich.contacts.repos.UserEntityRepos;
+import lombok.extern.log4j.Log4j2;
+import org.hibernate.annotations.Cascade;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -13,6 +17,7 @@ import java.awt.print.Pageable;
 import java.util.ArrayList;
 import java.util.List;
 
+@Log4j2
 @Service
 public class UserService {
 
@@ -21,6 +26,10 @@ public class UserService {
 
     @Autowired
     private RoleEntityRepos roleEntityRepos;
+
+    @Autowired
+    private ContactEntityRepos contactEntityRepos;
+
 
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
@@ -133,5 +142,52 @@ public class UserService {
             index++;
         }
         return result;
+    }
+
+    public UserEntity deleteUser(Long id){
+        for (UserEntity user :userEntityRepos.findAll()) {
+            if(user.getId()==id){
+                for (ContactEntity contacts: contactEntityRepos.findAll()) {
+                    if(contacts.getUser1().getId()==user.getId()){
+                        contactEntityRepos.delete(contacts);
+                    }
+                }
+                userEntityRepos.delete(user);
+                return user;
+            }
+        }
+       return null;
+    }
+
+    public UserEntity blockUser(Long id){
+        for (UserEntity user :userEntityRepos.findAll()) {
+            if(user.getId()==id){
+                user.setIs_blocked(!user.getIs_blocked());
+                userEntityRepos.save(user);
+                return user;
+            }
+        }
+        return null;
+    }
+
+    public  UserEntity saveUserByAdmin( UserEntity userEntity,boolean isAdmin){
+        RoleEntity userRole = roleEntityRepos.findByName("ROLE_USER");
+        log.info(isAdmin);
+        if(isAdmin){
+            userRole = roleEntityRepos.findByName("ROLE_ADMIN");
+        }
+        userEntity.setRoleEntity(userRole);
+        userEntity.setPassword(passwordEncoder.encode(userEntity.getPassword()));
+        for (UserEntity user: userEntityRepos.findAll()) {
+            if(
+                    userEntity.getLogin().equals(user.getLogin()) ||
+                            userEntity.getUsername().equals(user.getUsername()) ||
+                            userEntity.getEmail().equals(user.getEmail()) ||
+                            userEntity.getNumber().equals(user.getNumber())
+            ){
+                return null;
+            }
+        }
+        return userEntityRepos.save(userEntity);
     }
 }

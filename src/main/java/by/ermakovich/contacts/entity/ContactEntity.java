@@ -15,7 +15,7 @@ public class ContactEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne()
+    @ManyToOne(cascade = CascadeType.ALL)
     @NotNull
     @NotEmpty
     @JoinColumn(name = "my_id")
@@ -23,7 +23,7 @@ public class ContactEntity {
 
     @NotEmpty
     @NotNull
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "friend_id")
     private UserEntity user2;
 

@@ -54,9 +54,12 @@ public class AuthController {
     public ServerResponce auth(@RequestBody AuthRequest request){
         if(request.getLogin()!=null&&request.getPassword()!=null) {
             UserEntity userEntity = userService.findByLoginAndPassword(request.getLogin(), request.getPassword());
-            if (userEntity != null) {
-                String token = jwtProvider.generateToken(request.getLogin());
-                return new ServerResponce(true, "Successful", token);
+            if (userEntity != null ) {
+                if(!userEntity.getIs_blocked()){
+                    String token = jwtProvider.generateToken(request.getLogin());
+                    return new ServerResponce(true, "Successful", token);
+                }
+                return new ServerResponce(false, "User is blocked", null);
             }
         }
         return new ServerResponce(false, "Wrong login or password", null);
