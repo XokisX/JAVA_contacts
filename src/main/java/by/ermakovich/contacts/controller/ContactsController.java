@@ -86,7 +86,7 @@ public class ContactsController {
 
     @PostMapping ("/test")
     public ServerResponce getUsers(){
-        return new ServerResponce(true,"SOSI IVAN",userService.getAllUser(1,1));
+        return new ServerResponce(true,"TEST API",userService.getAllUser(1,1));
     }
 
     @PostMapping("/api/searchUser")

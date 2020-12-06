@@ -9478,3 +9478,446 @@ org.postgresql.util.PSQLException: ОШИБКА: UPDATE или DELETE в таб�
 2020-12-03 03:41:22.286  INFO 7792 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
 2020-12-03 03:41:22.288  INFO 7792 --- [http-nio-8080-exec-3] b.e.c.controller.ContactsController      : 2
 2020-12-03 03:41:22.301  INFO 7792 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:10:42.085  INFO 584 --- [restartedMain] b.e.contacts.ContactsApplication         : Starting ContactsApplication on ACER with PID 584 (E:\Labs\5_sem\CTPvInternet\contacts\target\classes started by User in E:\Labs\5_sem\CTPvInternet\contacts)
+2020-12-03 08:10:42.108  INFO 584 --- [restartedMain] b.e.contacts.ContactsApplication         : No active profile set, falling back to default profiles: default
+2020-12-03 08:10:42.218  INFO 584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-03 08:10:42.218  INFO 584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-03 08:10:44.008  INFO 584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-03 08:10:44.081  INFO 584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 3 JPA repository interfaces.
+2020-12-03 08:10:45.155  INFO 584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-03 08:10:45.166  INFO 584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-03 08:10:45.167  INFO 584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-03 08:10:45.263  INFO 584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-03 08:10:45.264  INFO 584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3046 ms
+2020-12-03 08:10:45.313  INFO 584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-03 08:10:46.086  INFO 584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-03 08:10:46.096  INFO 584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/contacts'
+2020-12-03 08:10:46.428  WARN 584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-03 08:10:46.489  INFO 584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 08:10:46.551  INFO 584 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-03 08:10:46.634  INFO 584 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-03 08:10:46.838  INFO 584 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-03 08:10:47.006  INFO 584 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-03 08:10:47.835  INFO 584 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75ae8e97, org.springframework.security.web.context.SecurityContextPersistenceFilter@7236be82, org.springframework.security.web.header.HeaderWriterFilter@d4a637b, org.springframework.web.filter.CorsFilter@45539473, org.springframework.security.web.authentication.logout.LogoutFilter@e97c0f, by.ermakovich.contacts.filters.JwtFilter@74e472b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d18e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b5720db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@666e82e6, org.springframework.security.web.session.SessionManagementFilter@23b5c620, org.springframework.security.web.access.ExceptionTranslationFilter@34a2da30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ca4a296]
+2020-12-03 08:10:47.846  WARN 584 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-03 08:10:48.253  INFO 584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-03 08:10:48.306  INFO 584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-03 08:10:48.307  INFO 584 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-03 08:10:50.022  INFO 584 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-03 08:10:50.028  INFO 584 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-03 08:10:50.382  INFO 584 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-03 08:10:50.399  INFO 584 --- [restartedMain] b.e.contacts.ContactsApplication         : Started ContactsApplication in 8.973 seconds (JVM running for 10.184)
+2020-12-03 08:11:01.908  INFO 584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 08:11:01.928  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:01.928  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:11:02.405  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:11:02.409  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:02.410  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:11:02.415  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:11:02.477  INFO 584 --- [http-nio-8080-exec-1] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:11:02.591  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:11:45.284  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.284  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.285  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.285  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.331  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.331  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.332  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.332  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.413  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.414  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.414  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.414  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.414  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.415  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.415  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.415  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.415  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.415  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.416  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.416  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.667  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.667  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.667  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.667  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.675  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.676  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.677  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.677  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.705  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.706  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.707  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:45.707  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:45.987  INFO 584 --- [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 272 ms
+2020-12-03 08:11:46.034  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:46.035  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:11:46.035  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:11:46.036  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:12:05.374  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.374  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.427  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.427  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.429  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.430  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.433  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.435  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.435  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.438  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.441  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.441  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.442  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.443  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:05.443  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.443  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:12:05.447  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.450  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.450  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:05.452  INFO 584 --- [http-nio-8080-exec-7] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:12:05.465  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:11.639  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:11.639  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:12:11.639  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:11.639  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:12:12.668  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:12.669  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:12.672  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:12.672  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:12.672  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:12.675  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:12.678  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.114  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.114  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.125  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.125  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.126  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.129  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.129  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.132  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.132  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.136  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.142  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.142  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.143  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.144  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.145  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:12:13.145  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:12:13.156  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.156  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.160  INFO 584 --- [http-nio-8080-exec-3] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:12:13.160  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:12:13.183  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.103  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.106  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:15:41.110  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.110  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:15:41.114  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.116  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.116  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:15:41.117  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.118  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.118  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:15:41.122  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.124  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.126  INFO 584 --- [http-nio-8080-exec-9] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:15:41.129  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.130  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:15:41.144  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.144  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.144  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.144  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:15:41.154  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.160  INFO 584 --- [http-nio-8080-exec-7] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:15:41.171  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.172  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:15:41.176  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.177  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:15:41.179  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:15:41.179  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:15:41.186  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:00.301  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:00.301  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:00.303  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:00.303  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:00.304  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:00.306  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:01.775  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:01.775  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:01.779  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:01.780  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:01.783  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:01.789  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:02.415  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:02.415  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:02.418  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:02.418  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:02.418  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:02.420  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:03.144  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:03.144  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:03.151  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:03.151  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:03.151  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:03.154  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.084  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.085  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:19.093  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.095  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.097  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:19.099  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.099  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:19.103  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-3] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:19.107  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:19.108  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.109  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:19.113  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.113  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.114  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.114  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:19.117  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.118  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.119  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.120  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:19.120  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:19.125  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:19.127  INFO 584 --- [http-nio-8080-exec-4] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:16:19.142  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:32.599  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:32.599  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:32.600  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:32.600  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:32.604  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:32.604  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:32.605  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:32.605  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:32.606  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:32.606  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:16:32.615  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:32.615  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:32.617  INFO 584 --- [http-nio-8080-exec-9] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:16:32.626  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:33.084  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:33.084  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:33.084  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:33.084  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:33.091  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:33.091  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:33.094  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:33.094  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:16:33.095  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:33.095  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0MyJ9.VHA-OefueeIMBVnPDeq9P8gSM0v6aKylLrU8s2Xu6b4fE98VGJ4H2AI6ms5q0ZU3rERbRfpyz0RaoiWfVNgd3g
+2020-12-03 08:16:33.100  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:33.100  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:16:33.103  INFO 584 --- [http-nio-8080-exec-7] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:16:33.126  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:49:43.559  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:49:43.560  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:49:43.570  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:49:43.572  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:49:43.572  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:49:43.578  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:49:56.916  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:49:56.916  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:49:56.918  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:49:56.919  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:50:01.902  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:01.902  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:50:01.903  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:01.904  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:50:33.009  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:33.010  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:33.015  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:33.033  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:33.033  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:33.036  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:53.737  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:53.737  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:50:53.737  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:53.737  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:50:54.801  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:54.801  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:54.810  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:54.813  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:54.813  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:54.829  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:54.843  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.470  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.471  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.487  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.488  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.489  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.494  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.494  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.495  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.495  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.496  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.501  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.502  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.502  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.507  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.507  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.509  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:50:55.509  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:50:55.509  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.513  INFO 584 --- [http-nio-8080-exec-4] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:50:55.518  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:50:55.569  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:04.528  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:04.529  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:04.532  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:04.532  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:04.532  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:04.534  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:04.535  INFO 584 --- [http-nio-8080-exec-8] b.e.c.controller.ContactsController      : 2
+2020-12-03 08:51:04.539  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:06.818  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:06.819  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:06.823  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:06.824  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:06.824  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:06.825  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:06.826  INFO 584 --- [http-nio-8080-exec-2] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:51:06.832  INFO 584 --- [http-nio-8080-exec-2] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:41.949  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:41.949  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:41.952  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:51:41.952  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:51:41.952  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:51:41.954  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:03.392  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:03.393  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:03.395  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:03.395  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:03.395  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:03.397  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:04.392  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:04.392  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:04.394  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:04.395  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:04.396  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:04.396  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:06.291  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:06.292  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:06.296  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:06.297  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:06.297  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:06.299  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:06.299  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:06.300  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:06.302  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:06.303  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:06.303  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:06.303  INFO 584 --- [http-nio-8080-exec-10] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:06.305  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:06.307  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:07.241  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:07.241  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:07.243  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:07.244  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:07.244  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:07.246  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.453  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.453  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.459  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.460  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.460  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.466  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.467  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.467  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.471  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.471  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.472  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.472  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.478  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.480  INFO 584 --- [http-nio-8080-exec-5] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:13.497  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.709  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.709  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.717  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.718  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.719  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.723  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.724  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.735  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.735  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.735  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.736  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.736  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.737  INFO 584 --- [http-nio-8080-exec-8] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.741  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.744  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.745  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.746  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:13.746  INFO 584 --- [http-nio-8080-exec-9] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:13.747  INFO 584 --- [http-nio-8080-exec-8] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:13.753  INFO 584 --- [http-nio-8080-exec-9] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:13.759  INFO 584 --- [http-nio-8080-exec-8] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:27.460  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:27.461  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:53:27.461  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:27.461  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:53:28.628  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.628  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.633  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.634  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.634  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.638  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.645  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.867  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.868  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.881  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.884  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.884  INFO 584 --- [http-nio-8080-exec-5] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.890  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.891  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.891  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.898  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.898  INFO 584 --- [http-nio-8080-exec-5] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.899  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:28.899  INFO 584 --- [http-nio-8080-exec-4] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:28.904  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:28.914  INFO 584 --- [http-nio-8080-exec-4] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:28.936  INFO 584 --- [http-nio-8080-exec-4] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:49.722  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:49.722  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:49.726  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:49.726  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:49.727  INFO 584 --- [http-nio-8080-exec-7] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:49.730  INFO 584 --- [http-nio-8080-exec-7] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:50.682  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:50.683  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:50.687  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:50.687  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:50.688  INFO 584 --- [http-nio-8080-exec-10] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiJ9._BBLSLFVxDRW7Oeg0s01_Vj-NOOp1YoTMDyGDAIHnHl3aBVZkZ32dxSyY2DClHpSgwIdHHSta-gIaMbYkqMBBA
+2020-12-03 08:53:50.689  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:50.690  INFO 584 --- [http-nio-8080-exec-10] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:50.702  INFO 584 --- [http-nio-8080-exec-10] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.202  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.203  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.207  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.210  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.210  INFO 584 --- [http-nio-8080-exec-6] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.224  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.235  INFO 584 --- [http-nio-8080-exec-6] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.236  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.236  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.237  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.238  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.243  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.244  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.244  INFO 584 --- [http-nio-8080-exec-3] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.245  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.245  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:52.245  INFO 584 --- [http-nio-8080-exec-1] b.ermakovich.contacts.filters.JwtFilter  : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwYXZlbCJ9.x_gl87Do2g4GehZp_yLKi0OSendjkfi_H6TTi88Dymy49S04QNGMcwuEDwGnaQG-77C6ccHpbnbTX-lXSCc6qw
+2020-12-03 08:53:52.246  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.247  INFO 584 --- [http-nio-8080-exec-3] b.e.c.controller.ContactsController      : 1
+2020-12-03 08:53:52.248  INFO 584 --- [http-nio-8080-exec-1] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:52.258  INFO 584 --- [http-nio-8080-exec-3] b.e.contacts.aspect.UserServiceAspect    : After callAtUserServiceFindByLogin
+2020-12-03 08:53:58.810  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:58.810  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
+2020-12-03 08:53:58.810  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : do filter...
+2020-12-03 08:53:58.810  INFO 584 --- [http-nio-8080-exec-2] b.ermakovich.contacts.filters.JwtFilter  : null
